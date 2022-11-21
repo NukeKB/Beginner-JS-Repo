@@ -44,6 +44,18 @@ if (10 > 5) {
   console.log('Yes 3');
 }
 
+const brand = 'Nissan'
+
+switch(brand) {
+  case 'BMW':
+  console.log('BMW')
+  break;
+  case 'Nissan':
+    и так далее
+    default:
+      console.log('Net mashin')
+}
+
 // Функции 
 function calculateTotal(num1, num2) {
   return num1 + num2;
